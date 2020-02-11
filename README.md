@@ -24,6 +24,7 @@ Repository Contents
 * **/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE. 
 * **/src** - Source files for the library (.cpp, .h).
 * **/firmware/Hex_Keypad_I2C** - Source files for the Arduino firmware (.ino).
+* **/docs** - Pinout digram for the Sparfkun 16 Button keypad (.pdf).
 * **keywords.txt** - Keywords from this library that will be highlighted in the Arduino IDE. 
 * **library.properties** - General library properties for the Arduino package manager. 
 
