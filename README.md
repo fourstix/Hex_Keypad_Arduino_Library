@@ -1,5 +1,6 @@
-Hexadecimal 4x4 Keypad based on Sparkfun's Qwiic 3x4 Keypad Arduino Library
-===========================================================================
+Hexadecimal 4x4 Keypad
+======================
+based on [Sparkfun's Qwiic Keypad Arduino Library](https://github.com/sparkfun/SparkFun_Qwiic_Keypad_Arduino_Library)
 
 ![4x4 Hex Keypad - 16 Button](https://cdn.sparkfun.com//assets/parts/1/3/1/6/0/14881-Keypad_-_16_Button-01.jpg)
 
@@ -7,9 +8,7 @@ Hexadecimal 4x4 Keypad based on Sparkfun's Qwiic 3x4 Keypad Arduino Library
 
 Adafruit sells a similar keypad [*Adafruit 4x4 Matric Keypad*](https://www.adafruit.com/product/3844)
 
-Keypads are very handy input devices. And there are many great libraries written to interface to keypads! But who wants to tie up 7 GPIOs, have a handful of pull up resistors.
-Using this firmware that scans the keys and an 3.3v 8MHz Arduino Pro-Mini, it's easy to create a Hexadecimal Keypad monitors all 12 buttons and allows you to read in any button
-presses by simply reading a register over I2C. It also implements a stack with time stamps for each key press so you don't need to constantly poll the keypad.
+Keypads are very handy input devices. And there are many great libraries written to interface to keypads! Using this firmware that scans the keys and an 3.3v 8MHz Arduino Pro-Mini, it's easy to create a Hexadecimal Keypad monitors all 16 buttons and allows you to read in any button presses by simply reading over I2C. It also implements a stack with time stamps for each key press so you don't need to constantly poll the keypad.  The asterisk key is mapped to E and the hash key is mapped to F.
 
 With this convenient Arduino Library, you don't need to worry about I2C communication protocol or register addresses. "readButton()" and "readTimeSincePressed()" take care of all the I2C stuff, and simply return the data you want.
 Try out the examples in this library and you'll be up and running in no time.
