@@ -6,7 +6,7 @@ based on [Sparkfun's Qwiic Keypad Arduino Library](https://github.com/sparkfun/S
 
 [*SparkFun 4x4 Keypad - 16 Button (Retired Product DD-1481)*](https://www.sparkfun.com/products/retired/14881)
 
-Adafruit sells a similar keypad [*Adafruit 4x4 Matric Keypad*](https://www.adafruit.com/product/3844)
+Adafruit sells a similar keypad [*Adafruit 4x4 Matrix Keypad*](https://www.adafruit.com/product/3844)
 
 Keypads are very handy input devices. And there are many great libraries written to interface to keypads! Using this firmware that scans the keys and an 3.3v 8MHz Arduino Pro-Mini, it's easy to create a Hexadecimal Keypad monitors all 16 buttons and allows you to read in any button presses by simply reading over I2C. It also implements a stack with time stamps for each key press so you don't need to constantly poll the keypad.  The asterisk key is mapped to E and the hash key is mapped to F.
 
